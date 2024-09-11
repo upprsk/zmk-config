@@ -51,20 +51,20 @@
         num {
             display-name = "num";
             bindings = <
-&trans  &kp N1  &kp N2  &kp N4  &kp N5  &kp N6    &kp N7  &kp N8  &kp N9  &kp N0  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &to 0   &trans    &trans  &to 3   &trans
+&trans  &kp N1    &kp N2    &kp N4  &kp N5  &kp N6    &kp N7  &kp N8  &kp N9  &kp N0  &trans  &trans
+&trans  &kp LGUI  &kp LALT  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans    &trans    &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                            &trans  &to 0   &trans    &trans  &to 3   &trans
             >;
         };
 
         nav {
             display-name = "nav";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans         &trans       &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans  &trans
-                        &trans  &to 0   &trans    &trans    &trans         &trans
+&trans  &trans    &trans    &trans  &trans  &trans    &trans    &trans         &trans       &trans     &trans  &trans
+&trans  &kp LGUI  &kp LALT  &trans  &trans  &trans    &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &trans  &trans
+&trans  &trans    &trans    &trans  &trans  &trans    &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans  &trans
+                            &trans  &to 0   &trans    &trans    &trans         &trans
             >;
         };
 
