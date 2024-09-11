@@ -32,30 +32,30 @@
         base {
             display-name = "base";
             bindings = <
-&kp TAB   &kp Q    &kp W    &kp F    &kp P      &kp B         &kp J      &kp L      &kp U      &kp Y    &kp SEMI  &kp BSPC
-&kp ESC   &kp A    &kp R    &kp S    &kp T      &kp G         &kp M      &kp N      &kp E      &kp I    &kp O     &kp SQT
-&kp LGUI  &lt 3 Z  &lt 2 X  &lt 1 C  &kp D      &kp V         &kp K      &kp H      &kp COMMA  &kp DOT  &kp FSLH  &trans
-                            &to 4    &kp SPACE  &kp LSHIFT    &kp RCTRL  &kp ENTER  &to 1
+&kp TAB   &kp Q    &kp W  &kp F    &kp P      &kp B         &kp J      &kp L      &kp U      &kp Y    &kp SEMI  &kp BSPC
+&kp ESC   &kp A    &kp R  &kp S    &kp T      &kp G         &kp M      &kp N      &kp E      &kp I    &kp O     &kp SQT
+&kp LGUI  &lt 3 Z  &kp X  &lt 1 C  &lt 2 D    &kp V         &kp K      &kp H      &kp COMMA  &kp DOT  &kp FSLH  &trans
+                          &to 4    &kp SPACE  &kp LSHIFT    &kp RCTRL  &kp ENTER  &to 1
             >;
         };
 
         num {
             display-name = "num";
             bindings = <
-&trans  &trans  &trans  &trans    &trans  &trans        &kp SLASH  &kp N7     &kp N8  &kp N9  &kp MINUS  &kp BSPC
-&trans  &trans  &trans  &trans    &trans  &trans        &kp ASTRK  &kp N4     &kp N5  &kp N6  &kp PLUS   &kp EQUAL
-&trans  &trans  &trans  &trans    &trans  &trans        &kp COMMA  &kp N1     &kp N2  &kp N3  &kp DOT    &to 3
-                        &kp LGUI  &to 0   &kp LSHIFT    &kp RCTRL  &kp ENTER  &to 2
+&trans    &trans  &trans  &trans  &trans  &trans        &kp SLASH  &kp N7     &kp N8  &kp N9  &kp MINUS  &kp BSPC
+&trans    &trans  &trans  &trans  &trans  &trans        &kp ASTRK  &kp N4     &kp N5  &kp N6  &kp PLUS   &kp EQUAL
+&kp LGUI  &trans  &trans  &trans  &trans  &trans        &kp COMMA  &kp N1     &kp N2  &kp N3  &kp DOT    &to 3
+                          &trans  &to 0   &kp LSHIFT    &kp RCTRL  &kp ENTER  &to 2
             >;
         };
 
         nav {
             display-name = "nav";
             bindings = <
-&trans  &trans  &trans  &trans    &trans  &trans        &trans     &trans     &trans     &trans     &trans  &kp BACKSPACE
-&trans  &trans  &trans  &trans    &trans  &trans        &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans    &trans  &trans        &kp HOME   &kp PG_UP  &kp PG_DN  &kp END    &trans  &trans
-                        &kp LGUI  &to 0   &kp LSHIFT    &kp RCTRL  &kp ENTER  &trans
+&trans    &trans  &trans  &trans  &trans  &trans        &trans     &trans     &trans     &trans     &trans  &kp BACKSPACE
+&trans    &trans  &trans  &trans  &trans  &trans        &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &trans  &trans
+&kp LGUI  &trans  &trans  &trans  &trans  &trans        &kp HOME   &kp PG_UP  &kp PG_DN  &kp END    &trans  &trans
+                          &trans  &to 0   &kp LSHIFT    &kp RCTRL  &kp ENTER  &trans
             >;
         };
 
@@ -64,18 +64,18 @@
             bindings = <
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2      &bt BT_SEL 3  &bt BT_SEL 4    &trans     &trans     &trans  &trans  &trans  &soft_off
 &trans      &trans        &kp K_PREV    &kp K_PLAY_PAUSE  &kp K_NEXT    &trans          &trans     &trans     &trans  &trans  &trans  &trans
-&trans      &trans        &trans        &trans            &trans        &trans          &trans     &trans     &trans  &trans  &trans  &trans
-                                        &kp LGUI          &to 0         &kp LSHIFT      &kp RCTRL  &kp ENTER  &trans
+&kp LGUI    &trans        &trans        &trans            &trans        &trans          &trans     &trans     &trans  &trans  &trans  &trans
+                                        &trans            &to 0         &kp LSHIFT      &kp RCTRL  &kp ENTER  &trans
             >;
         };
 
         symbols {
             display-name = "symbols";
             bindings = <
-&kp TAB  &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND     &kp ASTRK          &kp EQUAL  &kp SEMI  &kp BACKSPACE
-&trans   &trans    &trans  &trans    &trans      &trans         &kp MINUS  &kp LPAR          &kp RPAR           &kp GRAVE  &kp BSLH  &trans
-&trans   &trans    &trans  &trans    &trans      &trans         &kp PLUS   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kt TILDE  &kt PIPE  &trans
-                           &trans    &to 0       &kp LSHIFT     &kp RCTRL  &kp ENTER         &trans
+&kp TAB   &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND     &kp ASTRK          &kp EQUAL  &kp SEMI  &kp BACKSPACE
+&trans    &trans    &trans  &trans    &trans      &trans         &kp MINUS  &kp LPAR          &kp RPAR           &kp GRAVE  &kp BSLH  &trans
+&kp LGUI  &trans    &trans  &trans    &trans      &trans         &kp PLUS   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kt TILDE  &kt PIPE  &trans
+                            &trans    &to 0       &kp LSHIFT     &kp RCTRL  &kp ENTER         &trans
             >;
         };
     };
