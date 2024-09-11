@@ -41,7 +41,7 @@
         num {
             display-name = "num";
             bindings = <
-&trans    &trans  &trans  &trans  &trans  &trans        &kp SLASH  &kp N7       &kp N8  &kp N9  &kp MINUS  &kp BSPC
+&kp DEL   &trans  &trans  &trans  &trans  &trans        &kp SLASH  &kp N7       &kp N8  &kp N9  &kp MINUS  &kp BSPC
 &trans    &trans  &trans  &trans  &trans  &trans        &kp ASTRK  &kp N4       &kp N5  &kp N6  &kp PLUS   &kp EQUAL
 &kp LGUI  &trans  &trans  &trans  &trans  &trans        &kp COMMA  &kp N1       &kp N2  &kp N3  &kp DOT    &to 3
                           &trans  &to 0   &kp LSHIFT    &kp RCTRL  &hm RALT N0  &to 2
