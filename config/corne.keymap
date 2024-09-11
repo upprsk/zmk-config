@@ -31,20 +31,20 @@
         base {
             display-name = "base";
             bindings = <
-&kp TAB  &kp Q       &kp W       &kp F    &kp P      &kp B        &kp J      &kp L  &kp U      &kp Y       &kp SEMI    &trans
-&kp ESC  &hm LGUI A  &hm LALT R  &kp S    &lt 3 T    &kp G        &kp M      &kp N  &kp E      &hm RALT I  &hm RGUI O  &trans
-&trans   &lt 4 Z     &kp X       &lt 2 C  &kp D      &kp V        &kp K      &kp H  &kp COMMA  &kp DOT     &kp FSLH    &trans
-                                 &trans   &kp SPACE  &kp LCTRL    &kp RSHFT  &to 1  &trans
+&trans  &kp Q       &kp W       &kp F    &kp P      &kp B        &kp J      &kp L  &kp U      &kp Y       &kp SEMI    &trans
+&trans  &hm LGUI A  &hm LALT R  &kp S    &lt 3 T    &kp G        &kp M      &kp N  &kp E      &hm RALT I  &hm RGUI O  &trans
+&trans  &lt 4 Z     &kp X       &lt 2 C  &kp D      &kp V        &kp K      &kp H  &kp COMMA  &kp DOT     &kp FSLH    &trans
+                                &trans   &kp SPACE  &kp LCTRL    &kp RSHFT  &to 1  &trans
             >;
         };
 
         symbols {
             display-name = "symbols";
             bindings = <
-&trans  &kp EXCL  &kp AT     &kp HASH       &kp DOLLAR        &kp PERCENT    &kp CARET  &kp AMPERSAND     &kp ASTRK          &kp SEMI   &kp BACKSPACE   &trans
-&trans  &trans    &kp GRAVE  &kp LESS_THAN  &kp GREATER_THAN  &trans         &kp MINUS  &kp LPAR          &kp RPAR           &kp APOS   &hm RGUI ENTER  &trans
-&trans  &trans    &trans     &trans         &trans            &trans         &kp PLUS   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp TILDE  &kp BACKSLASH   &trans
-                             &trans         &to 0             &trans         &trans     &to 2             &trans
+&trans  &kp ESC  &kp EXCL   &kp AT         &kp HASH          &kp DOLLAR     &kp CARET  &kp AMPERSAND     &kp ASTRK          &kp SEMI   &kp BACKSPACE   &trans
+&trans  &kp TAB  &kp GRAVE  &kp LESS_THAN  &kp GREATER_THAN  &kp PERCENT    &kp MINUS  &kp LPAR          &kp RPAR           &kp APOS   &hm RGUI ENTER  &trans
+&trans  &trans   &trans     &trans         &trans            &trans         &kp PLUS   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp TILDE  &kp BACKSLASH   &trans
+                            &trans         &to 0             &trans         &trans     &to 2             &trans
             >;
         };
 
@@ -61,7 +61,7 @@
         nav {
             display-name = "nav";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans         &trans       &trans     &trans  &kp BACKSPACE
+&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans         &trans       &trans     &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans  &trans
                         &trans  &to 0   &trans    &trans    &trans         &trans
