@@ -44,7 +44,7 @@
             bindings = <
 &trans  &kp ESC       &kp EXCL        &kp AT         &kp HASH          &kp DOLLAR     &kp CARET  &kp AMPERSAND     &kp ASTRK          &kp SEMI       &kp BACKSPACE   &trans
 &trans  &hm LGUI TAB  &hm LALT GRAVE  &kp LESS_THAN  &kp GREATER_THAN  &kp PERCENT    &kp MINUS  &kp LPAR          &kp RPAR           &hm RALT APOS  &hm RGUI ENTER  &trans
-&trans  &trans        &trans          &trans         &trans            &trans         &kp PLUS   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp TILDE      &kp BACKSLASH   &trans
+&trans  &trans        &trans          &trans         &trans            &trans         &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp TILDE      &kp BACKSLASH   &trans
                                       &trans         &to 0             &trans         &trans     &to 2             &trans
             >;
         };
