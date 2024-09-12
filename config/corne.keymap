@@ -32,10 +32,10 @@
         base {
             display-name = "base";
             bindings = <
-&trans  &kp Q       &kp W       &kp F    &kp P      &kp B        &kp J      &kp L  &kp U      &kp Y       &kp SEMI    &kp DEL
-&trans  &hm LGUI A  &hm LALT R  &kp S    &lt 3 T    &kp G        &kp M      &kp N  &kp E      &hm RALT I  &hm RGUI O  &trans
-&trans  &lt 4 Z     &kp X       &lt 2 C  &kp D      &kp V        &kp K      &kp H  &kp COMMA  &kp DOT     &kp FSLH    &trans
-                                &trans   &kp SPACE  &kp LCTRL    &kp RSHFT  &to 1  &trans
+&trans  &kp Q       &kp W       &kp F    &kp P      &kp B        &kp J      &kp L    &kp U      &kp Y       &kp SEMI    &kp DEL
+&trans  &hm LGUI A  &hm LALT R  &kp S    &lt 3 T    &kp G        &kp M      &lt 3 N  &kp E      &hm RALT I  &hm RGUI O  &trans
+&trans  &lt 4 Z     &kp X       &lt 2 C  &kp D      &kp V        &kp K      &kp H    &kp COMMA  &kp DOT     &kp FSLH    &trans
+                                &to 3    &kp SPACE  &kp LCTRL    &kp RSHFT  &to 1    &trans
             >;
         };
 
@@ -52,9 +52,9 @@
         num {
             display-name = "num";
             bindings = <
-&trans  &kp N1    &kp N2    &kp N3  &kp N4  &kp N5    &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans
-&trans  &kp LGUI  &kp LALT  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans    &trans    &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp N1    &kp N2    &kp N3  &kp N4  &kp N5    &kp N6  &kp N7  &kp N8  &kp N9    &kp N0    &trans
+&trans  &kp LGUI  &kp LALT  &trans  &trans  &trans    &trans  &trans  &trans  &kp RALT  &kp RGUI  &trans
+&trans  &trans    &trans    &trans  &trans  &trans    &trans  &trans  &trans  &trans    &trans    &trans
                             &trans  &to 0   &trans    &trans  &to 3   &trans
             >;
         };
@@ -62,10 +62,10 @@
         nav {
             display-name = "nav";
             bindings = <
-&trans  &trans    &trans    &trans  &trans  &trans    &trans    &trans         &trans       &trans     &trans  &trans
-&trans  &kp LGUI  &kp LALT  &trans  &trans  &trans    &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &trans  &trans
-&trans  &trans    &trans    &trans  &trans  &trans    &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans  &trans
-                            &trans  &to 0   &trans    &trans    &trans         &trans
+&trans  &trans    &trans         &kp UP    &trans     &trans    &trans    &trans         &trans       &trans      &trans    &trans
+&trans  &kp LGUI  &hm LALT LEFT  &kp DOWN  &kp RIGHT  &trans    &kp H     &kp J          &kp K        &hm RALT L  &kp RGUI  &trans
+&trans  &trans    &trans         &trans    &trans     &trans    &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END     &trans    &trans
+                                 &trans    &to 0      &trans    &trans    &trans         &trans
             >;
         };
 
