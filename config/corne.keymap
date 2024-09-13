@@ -21,7 +21,7 @@
             #binding-cells = <0>;
             bindings = <&kp RSHIFT>, <&kp CAPS>;
 
-            tapping-term-ms = <50>;
+            tapping-term-ms = <100>;
         };
     };
 
