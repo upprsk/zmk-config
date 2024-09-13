@@ -15,14 +15,13 @@
             bindings = <&kp>, <&kp>;
         };
 
-        td: tapdance {
-            compatible = "zmk,behavior-hold-tap";
-            label = "TAPDANCE";
-            #binding-cells = <2>;
-            tapping-term-ms = <150>;
-            quick_tap_ms = <0>;
-            flavor = "tap-preferred";
-            bindings = <&kp>, <&kp>;
+        td0: tap_dance_0 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE";
+            #binding-cells = <0>;
+            bindings = <&kp RSHIFT>, <&kp CAPS>;
+
+            tapping-term-ms = <50>;
         };
     };
 
@@ -32,10 +31,10 @@
         base {
             display-name = "base";
             bindings = <
-&trans  &kp Q       &kp W       &kp F    &kp P      &kp B        &kp J      &kp L    &kp U      &kp Y       &kp SEMI    &kp DEL
-&trans  &hm LGUI A  &hm LALT R  &kp S    &lt 3 T    &kp G        &kp M      &lt 3 N  &kp E      &hm RALT I  &hm RGUI O  &trans
-&trans  &lt 4 Z     &kp X       &lt 2 C  &kp D      &kp V        &kp K      &kp H    &kp COMMA  &kp DOT     &kp FSLH    &trans
-                                &to 3    &kp SPACE  &kp LCTRL    &kp RSHFT  &to 1    &trans
+&trans  &kp Q       &kp W       &kp F    &kp P      &kp B        &kp J  &kp L    &kp U      &kp Y       &kp SEMI    &kp DEL
+&trans  &hm LGUI A  &hm LALT R  &kp S    &lt 3 T    &kp G        &kp M  &lt 3 N  &kp E      &hm RALT I  &hm RGUI O  &trans
+&trans  &lt 4 Z     &kp X       &lt 2 C  &kp D      &kp V        &kp K  &kp H    &kp COMMA  &kp DOT     &kp FSLH    &trans
+                                &to 3    &kp SPACE  &kp LCTRL    &td0   &to 1    &trans
             >;
         };
 
