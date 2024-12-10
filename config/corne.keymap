@@ -35,9 +35,9 @@
         base {
             display-name = "base";
             bindings = <
-&kp ESC  &kp Q    &kp W       &kp F      &kp P      &kp B        &kp J  &kp L    &kp U      &kp Y       &kp SEMI  &kp DEL
-&trans   &kp A    &hm LALT R  &kp S      &lt 3 T    &kp G        &kp M  &lt 3 N  &kp E      &hm LALT I  &kp O     &trans
-&trans   &lt 4 Z  &kp X       &lt 2 C    &kp D      &kp V        &kp K  &kp H    &kp COMMA  &kp DOT     &kp FSLH  &trans
+&kp ESC  &kp Q    &kp W       &kp F      &kp P      &kp B        &kp J  &kp L    &kp U      &kp Y       &kp BACKSPACE  &kp DEL
+&trans   &kp A    &hm LALT R  &kp S      &lt 3 T    &kp G        &kp M  &lt 3 N  &kp E      &hm LALT I  &kp O          &trans
+&trans   &lt 4 Z  &kp X       &lt 2 C    &kp D      &kp V        &kp K  &kp H    &kp COMMA  &kp DOT     &kp FSLH       &trans
                               &sk LMETA  &kp SPACE  &sk LCTRL    &td1   &to 1    &to 3
             >;
         };
@@ -45,7 +45,7 @@
         symbols {
             display-name = "symbols";
             bindings = <
-&trans  &kp ESC  &kp EXCL        &kp AT         &kp HASH   &kp DOLLAR     &kp CARET  &kp AMPERSAND  &kp ASTRK  &kp PLUS       &kp BACKSPACE  &trans
+&trans  &kp ESC  &kp EXCL        &kp AT         &kp HASH   &kp DOLLAR     &kp CARET  &kp AMPERSAND  &kp ASTRK  &kp PLUS       &kp SEMI       &trans
 &trans  &kp TAB  &hm LALT GRAVE  &kp LESS_THAN  &lt 3 GT   &kp PERCENT    &kp MINUS  &lt 3 LPAR     &kp RPAR   &hm LALT APOS  &kp ENTER      &trans
 &trans  &trans   &kp EQUAL       &kp TILDE      &kp UNDER  &trans         &kp LBKT   &kp LBRC       &kp RBRC   &kp RBKT       &kp BACKSLASH  &trans
                                  &trans         &to 0      &trans         &trans     &to 2          &trans
