@@ -35,40 +35,40 @@
         base {
             display-name = "base";
             bindings = <
-&kp ESC  &kp Q    &kp W       &kp F      &kp P      &kp B        &kp J  &kp L    &kp U      &kp Y       &kp SEMI  &kp DEL
-&trans   &kp A    &hm LALT R  &kp S      &lt 3 T    &kp G        &kp M  &lt 3 N  &kp E      &hm RALT I  &kp O     &trans
-&trans   &lt 4 Z  &kp X       &lt 2 C    &kp D      &kp V        &kp K  &kp H    &kp COMMA  &kp DOT     &kp FSLH  &trans
-                              &sk LMETA  &kp SPACE  &sk LCTRL    &td1   &to 1    &to 3
+&kp ESC  &kp Q       &kp W       &kp F      &kp P      &kp B        &kp J  &kp L    &kp U      &kp Y       &kp SEMI    &kp DEL
+&trans   &hm LGUI A  &hm LALT R  &kp S      &lt 3 T    &kp G        &kp M  &lt 3 N  &kp E      &hm RALT I  &hm RGUI O  &trans
+&trans   &lt 4 Z     &kp X       &lt 2 C    &kp D      &kp V        &kp K  &kp H    &kp COMMA  &kp DOT     &kp FSLH    &trans
+                                 &sk LMETA  &kp SPACE  &sk LCTRL    &td1   &to 1    &to 3
             >;
         };
 
         symbols {
             display-name = "symbols";
             bindings = <
-&trans  &kp ESC  &kp EXCL        &kp AT         &kp HASH   &kp DOLLAR     &kp CARET  &kp AMPERSAND  &kp ASTRK  &kp PLUS       &kp BACKSPACE  &trans
-&trans  &kp TAB  &hm LALT GRAVE  &kp LESS_THAN  &lt 3 GT   &kp PERCENT    &kp MINUS  &lt 3 LPAR     &kp RPAR   &hm RALT APOS  &kp ENTER      &trans
-&trans  &to 0    &kp EQUAL       &kp TILDE      &kp UNDER  &trans         &kp LBKT   &kp LBRC       &kp RBRC   &kp RBKT       &kp BACKSLASH  &trans
-                                 &trans         &trans     &trans         &trans     &to 2          &trans
+&trans  &kp ESC       &kp EXCL        &kp AT         &kp HASH   &kp DOLLAR     &kp CARET  &kp AMPERSAND  &kp ASTRK  &kp PLUS       &kp BACKSPACE   &trans
+&trans  &hm LGUI TAB  &hm LALT GRAVE  &kp LESS_THAN  &lt 3 GT   &kp PERCENT    &kp MINUS  &lt 3 LPAR     &kp RPAR   &hm RALT APOS  &hm RGUI ENTER  &trans
+&trans  &trans        &kp EQUAL       &kp TILDE      &kp UNDER  &trans         &kp LBKT   &kp LBRC       &kp RBRC   &kp RBKT       &kp BACKSLASH   &trans
+                                      &trans         &to 0      &trans         &trans     &to 2          &trans
             >;
         };
 
         num {
             display-name = "num";
             bindings = <
-&trans  &kp N1  &kp N2    &kp N3  &kp N4  &kp N5    &kp N6  &kp N7  &kp N8  &kp N9    &kp N0  &trans
-&trans  &trans  &kp LALT  &trans  &trans  &trans    &trans  &trans  &trans  &kp RALT  &trans  &trans
-&trans  &trans  &trans    &trans  &trans  &trans    &trans  &trans  &trans  &trans    &trans  &trans
-                          &trans  &trans  &trans    &trans  &to 1   &trans
+&trans  &kp N1    &kp N2    &kp N3  &kp N4  &kp N5    &kp N6  &kp N7  &kp N8  &kp N9    &kp N0    &trans
+&trans  &kp LGUI  &kp LALT  &trans  &trans  &trans    &trans  &trans  &trans  &kp RALT  &kp RGUI  &trans
+&trans  &trans    &trans    &trans  &trans  &trans    &trans  &trans  &trans  &trans    &trans    &trans
+                            &trans  &to 0   &trans    &trans  &to 1   &trans
             >;
         };
 
         nav {
             display-name = "nav";
             bindings = <
-&trans  &trans  &trans         &kp UP    &trans     &trans    &trans    &trans         &trans       &trans      &trans  &trans
-&trans  &trans  &hm LALT LEFT  &kp DOWN  &kp RIGHT  &trans    &kp H     &kp J          &kp K        &hm RALT L  &trans  &trans
-&trans  &trans  &trans         &trans    &trans     &trans    &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END     &trans  &trans
-                               &trans    &trans     &trans    &trans    &trans         &trans
+&trans  &trans    &trans         &kp UP    &trans     &trans    &trans    &trans         &trans       &trans      &trans    &trans
+&trans  &kp LGUI  &hm LALT LEFT  &kp DOWN  &kp RIGHT  &trans    &kp H     &kp J          &kp K        &hm RALT L  &kp RGUI  &trans
+&trans  &trans    &trans         &trans    &trans     &trans    &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END     &trans    &trans
+                                 &trans    &to 0      &trans    &trans    &trans         &trans
             >;
         };
 
