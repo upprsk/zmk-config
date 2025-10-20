@@ -69,10 +69,10 @@
 
         fun {
             bindings = <
-&trans  &kp F12  &kp F7  &kp F8      &kp F9     &kp PRINTSCREEN    &trans  &trans     &trans     &trans    &trans    &trans
-&trans  &kp F11  &kp F4  &kp F5      &kp F6     &trans             &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &trans
-&trans  &kp F10  &kp F1  &kp F2      &kp F3     &trans             &trans  &trans     &trans     &trans    &trans    &trans
-                         &kp ESCAPE  &kp SPACE  &kp TAB            &trans  &trans     &trans
+&trans  &kp F12  &kp F7  &kp F8              &kp F9     &kp PRINTSCREEN    &trans  &trans     &trans     &trans    &trans    &trans
+&trans  &kp F11  &kp F4  &kp F5              &kp F6     &trans             &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &trans
+&trans  &kp F10  &kp F1  &kp F2              &kp F3     &trans             &trans  &trans     &trans     &trans    &trans    &trans
+                         &kp K_CONTEXT_MENU  &kp SPACE  &kp TAB            &trans  &trans     &trans
             >;
 
             label = "fun";
@@ -80,10 +80,10 @@
 
         media {
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2       &bt BT_SEL 3     &bt BT_SEL 4    &trans  &trans        &trans             &trans           &trans        &trans
-&trans      &trans        &kp C_PREV    &kp C_PP           &kp C_NEXT       &trans          &trans  &kp C_PREV    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_NEXT    &trans
-&trans      &trans        &trans        &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE      &trans  &bt BT_SEL 0  &bt BT_SEL 1       &bt BT_SEL 2     &bt BT_SEL 3  &bt BT_SEL 4
-                                        &trans             &trans           &trans          &trans  &kp C_PP      &kt K_MUTE
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2       &bt BT_SEL 3     &bt BT_SEL 4    &trans      &trans        &trans             &trans           &trans        &trans
+&trans      &trans        &kp C_PREV    &kp C_PP           &kp C_NEXT       &trans          &trans      &kp C_PREV    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_NEXT    &trans
+&trans      &trans        &trans        &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE      &trans      &bt BT_SEL 0  &bt BT_SEL 1       &bt BT_SEL 2     &bt BT_SEL 3  &bt BT_SEL 4
+                                        &trans             &trans           &trans          &kp C_STOP  &kp C_PP      &kt K_MUTE
             >;
 
             label = "media";
