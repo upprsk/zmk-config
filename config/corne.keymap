@@ -36,10 +36,10 @@
 
         nav {
             bindings = <
-&trans  &trans        &trans        &trans          &trans     &trans     &trans     &trans         &trans        &trans           &trans        &trans
-&trans  &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LCTRL  &trans     &kp LEFT   &kp DOWN       &kp UP_ARROW  &kp RIGHT_ARROW  &kp CAPSLOCK  &trans
-&trans  &trans        &trans        &trans          &trans     &trans     &kp HOME   &kp PAGE_DOWN  &kp PAGE_UP   &kp END          &kp INSERT    &trans
-                                    &kp ESCAPE      &kp SPACE  &kp TAB    &kp ENTER  &kp BACKSPACE  &kp DELETE
+&trans  &trans        &trans        &trans      &trans          &trans     &trans     &trans         &trans        &trans           &trans        &trans
+&trans  &kp LEFT_WIN  &kp LEFT_ALT  &kp LCTRL   &kp LEFT_SHIFT  &trans     &kp LEFT   &kp DOWN       &kp UP_ARROW  &kp RIGHT_ARROW  &kp CAPSLOCK  &trans
+&trans  &trans        &trans        &trans      &trans          &trans     &kp HOME   &kp PAGE_DOWN  &kp PAGE_UP   &kp END          &kp INSERT    &trans
+                                    &kp ESCAPE  &kp SPACE       &kp TAB    &kp ENTER  &kp BACKSPACE  &kp DELETE
             >;
         };
 
