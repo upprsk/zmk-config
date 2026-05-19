@@ -2,6 +2,8 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
+&sk { release-after-ms = <500>; };
+
 / {
     behaviors {
         u_mt: u_mt {
@@ -28,7 +30,7 @@
             display-name = "base";
             bindings = <
 &trans      &kp Q             &kp W         &kp F           &kp P               &kp B          &kp J          &kp L               &kp U           &kp Y         &kp SEMI          &trans
-&kp LSHIFT  &u_mt LEFT_WIN A  &u_mt LALT R  &u_mt LCTRL S   &u_mt LEFT_SHIFT T  &kp G          &kp M          &u_mt LEFT_SHIFT N  &u_mt LCTRL E   &u_mt LALT I  &u_mt LEFT_WIN O  &kp RSHIFT
+&sk LSHIFT  &u_mt LEFT_WIN A  &u_mt LALT R  &u_mt LCTRL S   &u_mt LEFT_SHIFT T  &kp G          &kp M          &u_mt LEFT_SHIFT N  &u_mt LCTRL E   &u_mt LALT I  &u_mt LEFT_WIN O  &sk RSHIFT
 &trans      &kp Z             &kp X         &kp C           &kp D               &kp V          &kp K          &kp H               &kp COMMA       &kp DOT       &kp SLASH         &trans
                                             &u_lt 5 ESCAPE  &kp SPACE           &u_lt 1 TAB    &u_lt 2 ENTER  &u_lt 3 BACKSPACE   &u_lt 4 DELETE
             >;
